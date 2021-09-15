@@ -1,0 +1,19 @@
+.form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+input {
+  display: inline-block;
+  width: 290px;
+  margin-top: 2px;
+}
+
+.submit-btn {
+  display: block;
+  width: 600px;
+  padding: 5px;
+  margin-top: 2px;
+  font-size: medium;
+  cursor: pointer;
+}
