@@ -1,4 +1,6 @@
-// If the height of the size is less 500px
-if (window.screen.height > 500) {
-  window.alert("Window is greater than 500");
-}
+// Exploring Fetch
+
+const result = fetch('https://pokeapi.co/api/v2/pokemon/ditto')
+  .then(response => response.json())
+  .then(result => console.log(result))
+  .catch(error => console.error(error));
