@@ -1,26 +1,29 @@
-//global scope and this
-this.name = "Global";
-console.log(this);
+// let isGreater = typeof NaN
+// console.log(isGreater);
 
-function test() {
-  (() => {
-    console.log(this);
-  })();
-}
-test();
+// const obj0 = 1 = {}
+// const obj1 = 2 = // null value. pointing to no object
 
-// lexical scope
-const add = (a) => {
-  return (b) => a + b;
-};
+// // undefined
+// let value
+// console.log(value)
 
-const result = add(1)(2);
-console.log(result);
+// console.log(Math.ceil(4.1528390482))
 
-// Array Destructuring
-const ages = [12, 17, 8, 21, 14, 11];
+// //typeof
+// const alert = () => {
+//   // console.log("hello")
+//   return "hello"
+// }
 
-const ["carter, john"] = ages;
+// console.log(typeof alert())
+// console.log(typeof Symbol())
 
-// Destructure right on a literal
-const [carter, john] = [12, 17, 8, 21, 14, 11];
+// let name = "Ilya";
+
+// console.log(`hello ${1}`); // hello 1
+
+// console.log(`hello ${"name"}`); // hello name
+
+// console.log(`hello ${name}`); // hello Ilya\
+
